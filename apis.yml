@@ -1,8 +1,17 @@
 aid: pacific-fusion
 name: Pacific Fusion
-description: Pacific Fusion is a company surfaced as a portfolio company of dcvc, general-catalyst, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Pacific Fusion is a fusion energy company based in Fremont, California
+  developing commercial fusion power using pulsed magnetic inertial fusion.
+  Its modular system pairs a fast electric pulser, a meter-scale fusion
+  chamber, and centimeter-scale fuel targets to pursue net facility gain with
+  practical, affordable manufacturing. Building on breakthroughs from US
+  National Laboratories (Lawrence Livermore, Sandia) and partners such as
+  General Atomics, the company aims to deliver limitless, clean, on-demand
+  power. Surfaced as a portfolio company of DCVC, General Catalyst, and
+  Lightspeed Venture Partners, this profile has been enriched through the
+  API Evangelist network. Pacific Fusion is a hardware and energy company and
+  publishes no public API, developer portal, or SDK surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/pacific-fusion/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +21,44 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+image: https://pacificfusion.com/favicon.ico
 tags:
 - Company
+- Fusion Energy
+- Clean Energy
+- Nuclear Fusion
+- Energy
+- Deep Tech
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pacific-fusion-domain-security.yml
+- type: Website
+  url: https://pacificfusion.com
+- type: Blog
+  url: https://pacificfusion.com/updates
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pacificfusion/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
